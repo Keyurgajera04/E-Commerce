@@ -3,34 +3,69 @@
 }
 
 
-.nav-ul li{
+.nav-ul li {
   display: inline-block;
   padding: 10px;
 }
-.nav-ul{
+
+.nav-ul {
   padding: 5px;
   margin: 0px;
   background-color: #61dafb;
 }
-.nav-ul li a{
+
+.nav-right {
+  display: flex;
+  justify-content: end;
+}
+
+.nav-ul li a {
   color: black;
   text-decoration: none;
-  padding: 5px;
+  padding: 7px;
 }
-.footer{
+.float-r{
+  float: right;
+}
+.rounded{
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.product-list ul li{
+  display: inline-block;
+  padding: 5px;
+  width: 150px;
+  border: 1px solid black;
+  height: 25px;
+}
+.product-list ul{
+  margin: 0;
+}
+.search-box {
+  width: 250px;
+  height: 25px;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: medium;
+}
+.footer {
   position: absolute;
   bottom: 0;
   background-color: #61dafb;
   width: 100%;
   text-align: center;
 }
-.inputbox{
+
+.inputbox {
   display: block;
   padding: 5px;
   margin: 10px auto;
   border: 1px solid black;
 }
-.signup-button{
+
+.appbutton {
   cursor: pointer;
   background-color: #61dafb;
 }
@@ -60,6 +95,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
