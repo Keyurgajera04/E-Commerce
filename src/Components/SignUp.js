@@ -39,13 +39,14 @@ const Signup = () => {
         if (result) {
           result = await result.json();
           // console.log(result)
-          localStorage.setItem("user", JSON.stringify(result));
+          localStorage.setItem("user", JSON.stringify(result.result));
+          localStorage.setItem("token", JSON.stringify(result.auth));
           navigate("/");
         } else {
           alert("Somthing erorr");
         }
       } else {
-        alert("This email is used");
+        alert("User is already exist.");
       }
     }
   };

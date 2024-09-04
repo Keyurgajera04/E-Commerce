@@ -13,7 +13,7 @@ const Nav=()=>{
             <img alt='logo' src='download.png' />
             { auth ? 
                 <ul className='nav-ul'>
-                <li>< Link to='/'>Product</Link></li>
+                <li>< Link to='/'>Products</Link></li>
                 <li>< Link to='/add'>Add Product</Link></li>
                 {/* <li>< Link to='/update/:id'>Update Product</Link></li> */}
                 <li>< Link to='/profile'>Profile</Link></li>
